@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kobe Jan Dave M. Hufancia | Audio Engineering Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --surface-color: #1e1e1e;
+            --primary-color: #bb86fc;
+            --text-main: #ffffff;
+            --text-muted: #b3b3b3;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .about-section {
+            background-color: var(--surface-color);
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .track-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .track-card {
+            background-color: var(--surface-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease;
+        }
+
+        .track-card:hover {
+            transform: translateY(-2px);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .track-title {
+            font-size: 1.2rem;
+            margin: 0 0 1rem 0;
+            font-weight: bold;
+        }
+
+        audio {
+            width: 100%;
+            outline: none;
+        }
+
+        /* Customizing the audio player slightly for webkit browsers */
+        audio::-webkit-media-controls-panel {
+            background-color: #2a2a2a;
+        }
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display {
+            color: var(--text-main);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 2rem;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>KOBE JAN DAVE M. HUFANCIA</h1>
+        <div class="subtitle">Multimedia Arts & Animation | Audio Engineering Portfolio</div>
+    </header>
+
+    <div class="container">
+        <section class="about-section">
+            <h2>About Me</h2>
+            <p>Welcome to my audio portfolio. I am a 3rd-year BSIT student specializing in Multimedia Arts and Animation at National University (NU) under the CCIT program. While my passions range from visual character design and digital animation to the automotive scene, this space is dedicated entirely to my work in audio engineering. Below, you will find a curated collection of my recent audio processing, editing, and mixing projects.</p>
+        </section>
+
+        <section class="portfolio-section">
+            <h2>Audio Engineering Activities</h2>
+            
+            <div class="track-grid">
+                <div class="track-card">
+                    <h3 class="track-title">01. Beat Matching</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: -10px;">Synchronization and tempo alignment exercise.</p>
+                    <audio controls preload="metadata">
+                        <source src="BEAT MATCHING_HUFANCIA.m4a" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="track-card">
+                    <h3 class="track-title">02. Cutup</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: -10px;">Precision slicing, rearranging, and sample manipulation.</p>
+                    <audio controls preload="metadata">
+                        <source src="CUTUP_HUFANCIA.m4a" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="track-card">
+                    <h3 class="track-title">03. Dubbing</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: -10px;">Vocal replacement and post-production voiceover work.</p>
+                    <audio controls preload="metadata">
+                        <source src="DUBBING_HUFANCIA.m4a" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="track-card">
+                    <h3 class="track-title">04. The Remix</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: -10px;">Creative reimagining of an existing track using added layers and effects.</p>
+                    <audio controls preload="metadata">
+                        <source src="HUFANCIA_Remix.m4a" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="track-card">
+                    <h3 class="track-title">05. Medley</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: -10px;">Seamless transitioning and blending of multiple distinct audio sources.</p>
+                    <audio controls preload="metadata">
+                        <source src="MEDLEY_HUFANCIA.m4a" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <div class="track-card">
+                    <h3 class="track-title">06. Mashup</h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: -10px;">Combining and blending elements from multiple songs into a cohesive single track.</p>
+                    <audio controls preload="metadata">
+                        <source src="MASHUP_HUFANCIA.m4a" type="audio/mp4">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kobe Jan Dave M. Hufancia. All rights reserved. | National University CCIT</p>
+    </footer>
+
+</body>
+</html>
